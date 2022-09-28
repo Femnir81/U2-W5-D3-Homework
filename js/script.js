@@ -1,8 +1,8 @@
 let immagini = [
-    '<img src="./assets/images/Drop.png" alt="">',
-    '<img src="./assets/images/Flower.png" alt="">',
-    '<img src="./assets/images/Hamster.png" alt="">',
-    '<img src="./assets/images/Tree.png" alt="">',
+    '<img class="animation" src="./assets/images/Drop.png">',
+    '<img class="animation" src="./assets/images/Flower.png" >',
+    '<img class="animation" src="./assets/images/Hamster.png">',
+    '<img class="animation" src="./assets/images/Tree.png">',
 ]
 
 let interval
@@ -16,7 +16,7 @@ function startCarousel() {
         if (i == immagini.length) {
             i = 0      
     }            
-    }, 1000);
+    }, 1500);
 }
 
 function stopCarousel() {
